@@ -3,6 +3,7 @@ using IScaleAPI.Repository.Rainfall;
 using IScaleAPI.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace IScaleAPI.Controllers
 {
@@ -21,16 +22,16 @@ namespace IScaleAPI.Controllers
         [ProducesResponseType(typeof(ResponseSchema), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(ResponseSchema), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(RainfallViewModel), StatusCodes.Status200OK)]
-        public async Task<ActionResult<Item>> LoadMessurement(int id)
+        public ActionResult<Item> LoadMessurement(int id)
         {           
             try
             {
-                return Ok(await service.LoadMessurement(id));
+                return Ok(service.LoadMessurement(id));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return BadRequest(new ResponseSchema { Message = "Bad Request" });
             }           
-        }
+        }      
     }
 }

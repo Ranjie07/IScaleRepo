@@ -5,7 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options => options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -18,7 +19,7 @@ builder.Services.AddSwaggerGen(c =>
             Contact = new OpenApiContact
             {
                 Name = "Ranjie Alba",
-                Url = new Uri("https://www.sorted.com")
+                Email = "albaranjie@gmail.com"                
             },
             Description = "An API which provides rainfall reading data",            
         });

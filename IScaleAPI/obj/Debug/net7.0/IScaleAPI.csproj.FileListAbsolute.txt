@@ -32,3 +32,37 @@ D:\BACKUP RANJIE\IScale\IScale\IScaleAPI\obj\Debug\net7.0\refint\IScaleAPI.dll
 D:\BACKUP RANJIE\IScale\IScale\IScaleAPI\obj\Debug\net7.0\IScaleAPI.pdb
 D:\BACKUP RANJIE\IScale\IScale\IScaleAPI\obj\Debug\net7.0\IScaleAPI.genruntimeconfig.cache
 D:\BACKUP RANJIE\IScale\IScale\IScaleAPI\obj\Debug\net7.0\ref\IScaleAPI.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\appsettings.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\IScaleAPI.exe
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\IScaleAPI.deps.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\IScaleAPI.runtimeconfig.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\IScaleAPI.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\IScaleAPI.pdb
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.csproj.AssemblyReference.cache
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.AssemblyInfoInputs.cache
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.AssemblyInfo.cs
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.csproj.CoreCompileInputs.cache
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets\msbuild.IScaleAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.IScaleAPI.props
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.IScaleAPI.props
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.IScaleAPI.props
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\scopedcss\bundle\IScaleAPI.styles.css
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.csproj.CopyComplete
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\refint\IScaleAPI.dll
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.pdb
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\IScaleAPI.genruntimeconfig.cache
+D:\BACKUP RANJIE\Git Repos\IScale Exam\IScaleAPI\obj\Debug\net7.0\ref\IScaleAPI.dll

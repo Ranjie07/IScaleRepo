@@ -1,7 +1,4 @@
-﻿using IScaleAPI.ViewModel;
-using Newtonsoft.Json;
-using System.Text.Json.Serialization;
-
+﻿using System.Text.Json.Nodes;
 
 namespace IScaleAPI.Repository.Rainfall
 {
@@ -14,13 +11,10 @@ namespace IScaleAPI.Repository.Rainfall
 
         public RainfallService() {
             httpClient.BaseAddress = new Uri("http://environment.data.gov.uk/flood-monitoring");
-
         }
 
-        public async Task<RainfallViewModel> LoadMessurement(int id)
-        {
-            RainfallViewModel? retDate = new RainfallViewModel();
-
+        public dynamic LoadMessurement(int id)
+        {            
             try
             {
                 request = new HttpRequestMessage(HttpMethod.Get, httpClient.BaseAddress + "/id/stations/" + id + "/measures");
@@ -30,15 +24,16 @@ namespace IScaleAPI.Repository.Rainfall
                 if (response.IsSuccessStatusCode)
                 {
                     readData = response.Content.ReadAsStringAsync().Result;
-                    retDate = JsonConvert.DeserializeObject<RainfallViewModel>(readData);
-                } else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
-                {
-                    throw new Exception("Requesting URL Not Found!");
-                }
+                    var test = JsonObject.Parse(readData);
+                    if (string.IsNullOrEmpty(Convert.ToString(test)))
+                        throw new Exception("Not Data Found!");
+
+                    return test;
+                } else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)                
+                    throw new Exception("Requesting URL Not Found!");                
                 else
                     throw new Exception("Not Data Found!");
-
-                return retDate;
+                
             } catch (Exception ex)
             {
                 throw new Exception(ex.ToString());
